@@ -17,7 +17,6 @@ function App() {
         <Cabecalho />
 
         <Switch>
-
           <Route exact path='/'>
             <Home />
           </Route>
@@ -37,7 +36,6 @@ function App() {
           <Route>
             <Pagina404 />
           </Route>
-
         </Switch>
       </Router>
     </>
